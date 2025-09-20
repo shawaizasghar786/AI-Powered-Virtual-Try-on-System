@@ -308,7 +308,7 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 mp_drawing = mp.solutions.drawing_utils
 
-
+# --- Function to open file dialog and select an image ---
 def select_image():
     root = tk.Tk()
     root.withdraw()
