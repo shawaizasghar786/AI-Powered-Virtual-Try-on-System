@@ -261,6 +261,7 @@ def main():
     plt.close()
     
     print("Learning curves have been saved to 'learning_curves.png'")
+    print("Done")
     
     # Load best model for testing
     print("\nLoading best model for testing...")
